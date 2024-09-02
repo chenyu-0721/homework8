@@ -3,7 +3,7 @@ import page1View from '../views/page1View.vue'
 import login from '../views/login.vue'
 
 const router = createRouter({
-  history: createWebHashHistory('/homework8/'),
+  history: createWebHistory('/homework8/'),
   routes: [
     {
       path: '/',
