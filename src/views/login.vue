@@ -91,22 +91,25 @@
     </div>
   </div>
 
-  <div class="container mtb-80 d-flex align-items-center">
-    <div class="col-6">
+  <div
+    class="container mtb-80 d-flex flex-column flex-md-row align-items-center"
+  >
+    <div class="col-12 col-md-6 d-flex justify-content-center mb-4 mb-md-0">
       <img
         class="img-fluid"
-        style="width: 730px; height: 730px"
+        style="max-width: 100%; height: auto"
         src="https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/login1.jpg?raw=true"
+        alt="Login Image"
       />
     </div>
-    <div class="d-flex flex-column col-6 ms-5">
-      <form>
+    <div class="col-12 col-md-6 d-flex flex-column align-items-center">
+      <form class="w-75 w-md-50">
         <h1 class="fw-bold fs-1">Log in</h1>
         <div class="mb-3 mt-3">
           <label for="email" class="form-label fs-4">帳號</label>
           <input
             type="email"
-            class="form-control w-50"
+            class="form-control"
             id="email"
             aria-describedby="emailHelp"
             placeholder="example@example.com"
@@ -115,21 +118,21 @@
         <div class="mb-3">
           <label for="password" class="form-label fs-4">密碼</label>
           <input
-            type="email"
-            class="form-control w-50"
+            type="password"
+            class="form-control"
             id="password"
             aria-describedby="emailHelp"
             placeholder="Password"
           />
         </div>
-      </form>
-      <div class="d-flex justify-content-between align-items-center w-50 mt-3">
-        <a href="" class="forgot fs-5">忘記密碼</a>
-        <div>
-          <button class="sign me-2">註冊</button>
-          <button class="signin">登入</button>
+        <div class="d-flex justify-content-between align-items-center mt-3">
+          <a href="#" class="forgot fs-5">忘記密碼</a>
+          <div>
+            <button type="button" class="btn btn-primary me-2">註冊</button>
+            <button type="submit" class="btn btn-secondary">登入</button>
+          </div>
         </div>
-      </div>
+      </form>
     </div>
   </div>
 
@@ -168,31 +171,37 @@
   margin-bottom: 80px;
 }
 
-.sign {
-  font: normal normal normal 16px/22px PingFang TC;
-  letter-spacing: 0px;
-  color: #916000;
-  opacity: 1;
-  background: #ffffff 0% 0% no-repeat padding-box;
-  border: 1px solid #916000;
-  opacity: 1;
-  padding: 8px 16px;
-}
-
-.signin {
-  font: normal normal normal 16px/22px PingFang TC;
-  letter-spacing: 0px;
-  color: #ffffff;
-  background: #916000 0% 0% no-repeat padding-box;
-  border: 1px solid #916000;
-  border-radius: 4px;
-  padding: 8px 16px;
-}
-
 .forgot {
   font: normal normal medium 16px/24px PingFang TC;
   letter-spacing: 0px;
-  color: #916000;
+  color: #916000 !important;
   opacity: 1;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+.img-fluid {
+  max-width: 730px;
+  height: 730px !important;
+}
+
+@media (max-width: 768px) {
+  .img-fluid {
+    width: 100%;
+    height: 220px !important;
+  }
+}
+
+.btn-primary {
+  background-color: white !important;
+  color: #916000 !important;
+  border-color: #916000 !important;
+}
+
+.btn-secondary {
+  background-color: #916000 !important;
+  border-color: #ffffff !important;
 }
 </style>
