@@ -28,7 +28,7 @@
           <li class="nav-item">
             <a image="#" class="nav-link" aria-current="page">
               <i class="bi bi-person-fill navbar_icon"></i>
-              <a href="login" class="navbar_span">log in</a>
+              <a href="#login" class="navbar_span">log in</a>
             </a>
           </li>
           <li class="nav-item">
