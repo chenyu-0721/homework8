@@ -1,0 +1,199 @@
+body {
+  font-family:
+    'SF Pro Text',
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Oxygen-Sans,
+    Ubuntu,
+    Cantarell,
+    'Helvetica Neue',
+    sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-link {
+  padding-left: 0px;
+}
+
+.navbar {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.navbar_img {
+  width: 128px;
+  height: 38px;
+}
+
+.navbar_span {
+  padding-left: 5px;
+  font-size: 20px;
+  color: #8d8d8d;
+}
+
+.navbar_icon {
+  color: #8d8d8d;
+}
+
+/* ----------------------------- */
+
+.container_text {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.container-fluid {
+  padding-left: 0px;
+}
+
+.container_bg {
+  background-color: #916000;
+}
+
+.navbar2_span {
+  color: white;
+  font-size: 18px;
+}
+
+/* ------------------------------------------ */
+
+.card {
+  border: none;
+}
+
+.card-img-top {
+  object-fit: cover;
+  height: 255px;
+}
+
+.card-title {
+  font-weight: bold;
+}
+.bi-heart-fill {
+  color: #916000;
+}
+
+.bi-cart-fill {
+  color: #916000;
+  padding-left: 4px;
+}
+
+.card-span-text {
+  color: #8d8d8d;
+}
+
+.pagination {
+  padding-top: 20px;
+}
+
+.num_a {
+  padding-left: 15px;
+  text-decoration: none;
+  color: black;
+}
+
+.num_a:hover {
+  color: #916000;
+}
+
+.num_a:focus {
+  color: #916000;
+  text-decoration: underline;
+}
+
+.input {
+  background-color: #916000;
+}
+
+.subscription {
+  background-image: url('https://images.unsplash.com/photo-1532413992378-f169ac26fff0?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center left;
+  padding: 312px 0 112px;
+}
+
+.container-footer {
+  background-color: #916000;
+}
+
+.footer-li {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* perfumeComponent  */
+
+.first_img {
+  background-image: url('https://images.unsplash.com/photo-1588159343745-445ae0b16383?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center left;
+  padding: 312px 0 112px;
+  width: 100%;
+  height: 600px;
+}
+
+.first-block {
+  margin-left: auto !important;
+}
+
+.first-title {
+  font-size: 40px;
+  color: white;
+  opacity: 1;
+}
+
+.first-content {
+  font-size: 24px;
+  color: white;
+  opacity: 1;
+}
+
+.first-btn {
+  border: 2px solid #ffffff;
+  border-radius: 30px;
+  color: white;
+  width: 350px;
+}
+
+/*  */
+.font-text-color {
+  color: #916000;
+}
+
+.second-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #000000;
+  border-radius: 30px;
+  width: 350px;
+  height: 60px;
+  color: #000000;
+  font-size: 20px;
+  opacity: 1;
+}
+
+.perfume-title {
+  font-size: 24px;
+}
+
+.perfume-content,
+.perfume-price {
+  font-size: 16px;
+}
+
+.card-body {
+  padding: 0;
+}
+
+.card-bg {
+  background: #e0e0e0;
+}
